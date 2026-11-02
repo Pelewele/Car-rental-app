@@ -1,0 +1,28 @@
+import type { ReactNode } from "react";
+
+export const iconPaths: Record<string, ReactNode> = {
+  home: <><path d="M3 11 12 3l9 8"/><path d="M5 10v10h14V10M9 20v-6h6v6"/></>,
+  search: <><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></>,
+  trips: <><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 3v4m8-4v4M4 10h16"/></>,
+  user: <><circle cx="12" cy="8" r="4"/><path d="M4 21c1-5 4-7 8-7s7 2 8 7"/></>,
+  back: <path d="m15 18-6-6 6-6"/>,
+  chevron: <path d="m9 18 6-6-6-6"/>,
+  pin: <><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></>,
+  shield: <><path d="M12 3 4.5 6v5c0 5 3 8 7.5 10 4.5-2 7.5-5 7.5-10V6Z"/><path d="m9 12 2 2 4-4"/></>,
+  check: <path d="m5 12 4 4L19 6"/>,
+  filter: <><path d="M4 7h16M7 12h10M10 17h4"/></>,
+  map: <><path d="m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3Z"/><path d="M9 3v15m6-12v15"/></>,
+  heart: <path d="M20 5c-2-2-5-2-8 1-3-3-6-3-8-1-2 3-1 7 8 15 9-8 10-12 8-15Z"/>,
+  clock: <><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></>,
+  chat: <><path d="M20 15a3 3 0 0 1-3 3H9l-5 3v-6a3 3 0 0 1-1-2V7a3 3 0 0 1 3-3h11a3 3 0 0 1 3 3Z"/></>,
+  camera: <><path d="M4 8h4l2-3h4l2 3h4v11H4Z"/><circle cx="12" cy="13" r="3"/></>,
+  alert: <><path d="M12 3 2 21h20Z"/><path d="M12 9v5m0 3v.1"/></>,
+  phone: <path d="M7 3 4 5c0 8 7 15 15 15l2-3-5-3-2 2c-3-1-5-3-6-6l2-2Z"/>,
+  more: <><circle cx="5" cy="12" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/></>,
+  x: <path d="M18 6 6 18M6 6l12 12"/>,
+  share: <><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></>,
+  calendar: <><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></>,
+  fuel: <><path d="M3 22h12M4 9h10v13H4z"/><circle cx="9" cy="6" r="2"/><path d="M14 9l4-4 2 2-3 3v7a2 2 0 0 1-2 2h-1"/></>,
+  key: <><circle cx="7.5" cy="15.5" r="3.5"/><path d="m10 13 8-8 2 2-1 1 2 2-1 1-1-1-1 1-2-2"/></>,
+  truck: <><rect x="1" y="3" width="15" height="13" rx="2"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></>,
+};

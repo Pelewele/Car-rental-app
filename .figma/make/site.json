@@ -1,0 +1,10 @@
+{
+  "description": "Connects verified vehicle owners with drivers in Accra for secure peer-to-peer car rentals featuring trusted verification and seamless booking.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
